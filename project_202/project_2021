@@ -1,0 +1,14 @@
+pipeline {
+    environment {
+            FNAME = "Naive"
+	            LNAME= "Skill"
+		        }
+			    agent any
+			        stages {
+				        stage('Hello') {
+					            steps {
+						                    sh "echo Hello ${FNAME} ${LNAME}"
+								                }
+										        }
+											    }
+											    }
